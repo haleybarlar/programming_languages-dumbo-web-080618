@@ -9,7 +9,9 @@ def reformat_languages(languages)
           new_hash[language][:style] << styles
         else
           new_hash[language] = {:type => str, :style => [style]}
+        end
       end
     end
   end
+  new_hash
 end
