@@ -1,6 +1,8 @@
 def reformat_languages(languages)
   new_hash = {}
   languages.each do |something, something_data|
-    new_hash[
+    something_data.each do |language, language_data|
+      language_data.each do |key, value|
+        
 
 end
