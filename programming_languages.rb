@@ -8,7 +8,7 @@ def reformat_languages(languages)
         if new_hash.include?(language)
           new_hash[language][:style] << styles
         else
-          new_hash[language] = {:type =>
+          new_hash[language] = {:type => str, 
       end
     end
   end
